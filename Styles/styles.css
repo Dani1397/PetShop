@@ -77,3 +77,93 @@
   line-height: 23.44px;
   color: #ffffff;
 }
+
+.banner {
+  display: flex;
+  background-image: url(/Images/bowl-and-pet-daities-on-green-background\ 1.jpg);
+  background-size: cover;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: end;
+  height: 90vh;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 3%;
+  align-items: center;
+}
+
+#tituloPrincipal {
+  padding: 2.5%;
+  border-radius: 5px;
+  background-color: white;
+  color: #3c2313;
+  font-size: 30px;
+  font-weight: 400;
+  width: 100%;
+}
+
+#subtitulo {
+  padding: 3%;
+  color: #3c2313;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+}
+
+#botonBanner {
+  text-decoration: none;
+  padding: 4%;
+  border-radius: 5px;
+  background-color: #f0a83e;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  width: 30%;
+}
+
+#imagenPatita {
+  padding: 0.5%;
+  display: flex;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #3c2313;
+}
+
+#listaDeProductos {
+  list-style: none;
+  color: #666666;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 2%;
+}
+
+#productos {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+#productos li {
+  text-align: center;
+  margin: 10px;
+}
+
+#productos li h3 {
+ color: #3c2313;
+}
+
+#productos li p {
+  color: #f0a83e;
+ }
